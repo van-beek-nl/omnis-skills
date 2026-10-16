@@ -17,7 +17,6 @@ Consolidated pitfalls index; the sections below add only what the table doesn't.
 | `Return value` | `Quit method value`; caller: `Do method name Returns var` |
 | `s1 + s2` for character values | `con(s1, s2)` — `+` is numeric only |
 | `val()`, `round()`, `random()`, `year()` | don't exist — coerce `s * 1.0`; randoms are `rand`/`randintrng`/`randrealrng` |
-| `For i from a to b` | no general `For` — `While`/`End While` or `Repeat`/`Until` |
 | `pick(cond, ifTrue, ifFalse)` | zero-based: `pick(n, v0, v1, …)`; `pick(bool, A, B)` returns **A when FALSE** |
 | `Do $windows.$display(wWin)` | `Open window instance wWin` |
 | `Calculate lvRef as $win.$open()` | the reference comes back only via `Do $win.$open() Returns lvRef` |
