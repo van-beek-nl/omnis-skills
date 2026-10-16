@@ -124,4 +124,4 @@ Plumbing is validated silently — every one of these "just came back empty" wit
 
 ## Delegating to subagents
 
-**Read `references/bulk.md` (in this skill's `references/` folder) before fanning Omnis MCP work out to subagents** — it covers slicing, context budget, worker monitoring, relaunch rules, and the post-version-change re-verification checklist.
+**Read `references/subagents.md` (in this skill's `references/` folder) before fanning Omnis MCP work out to subagents or performing bulk staged changes**.

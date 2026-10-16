@@ -5,7 +5,7 @@ description: Use when doing Omnis programming — writing, modifying, reviewing,
 
 # Omnis Programming
 
-**Omnis is silent by default**: bad references, missing/mismatched list columns, wrong indexes, and truncated types all yield *empty values, never errors* — verify intermediates deliberately. Agent-workflow notes (bulk work, delegation, staged-change tooling) live in the tool-specific supplement [workflow.md](references/workflow.md); this file is pure language reference.
+**Omnis is silent by default**: bad references, missing/mismatched list columns, wrong indexes, and truncated types all yield *empty values, never errors* — verify intermediates deliberately. This file is pure language reference.
 
 ## 1. Quick reference
 
