@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example

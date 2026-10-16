@@ -1,0 +1,8 @@
+# Normalize detected text files and check them out with LF on every platform.
+# Binary files are excluded automatically by text=auto.
+* text=auto eol=lf
+
+# Explicit text rules for skill documentation and repository configuration.
+*.md text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
