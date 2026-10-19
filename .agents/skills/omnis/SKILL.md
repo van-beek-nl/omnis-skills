@@ -56,8 +56,6 @@ Note: a small set of names is reserved and must not be used for custom methods/p
 Calculate lvText as pick(len(lvName)=0, <name block>, lvAddress)
 ```
 
-`If`/`Else`/`End If` is least error-prone for boolean-selected strings.
-
 **Loops/branching.** `While` tests at the start; `Repeat`/`Until` tests at the end and always runs at least once. `If <calc>`/`Else`/`Else If`/`End If`: non-zero is true, zero is false, body runs when true.
 
 **Naming.** In Omnis, variables are often prefixed with a letter indicating their scope to avoid naming clashes within a class. Follow the codebase's naming conventions.
